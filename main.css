@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 22, 2020, 8:49:37 AM
+    Author     : akky
+*/
+@import "dice.css";
+body{
+    margin:0px;
+    font-family: Serif;
+    color:rgba(255,255,255,255);
+    font-weight:bold;
+    
+     -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+    background-color: black;
+background-size: 56.57px 56.57px;
+}
+
+
+.mainframe{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome{
+    background-color:rgba(0,0,0,0.7);
+    z-index:+99;
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome .setting{
+    width:300px;
+    background-color: white;
+    text-align: center;
+    padding-top:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7),inset 0px 0px 10px rgba(0,0,0,0.4);
+    border:0.5px solid rgba(0,0,0,0.2);
+}
+.setting .name{
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid black;
+}
+.setting .footer{
+    font-size: 12px;
+    color: #00e34c;
+    font-weight: bold;
+    font-family:serif;
+    padding: 6px 0px;
+    color:rgba(0,0,0,0.9);
+}
+.welcome .setting .name input{
+    border-radius: 5px;
+    padding:5px;
+    outline:none;
+    width:80%;
+    margin:10px 0px;
+}
+
+.play{
+    outline: none;
+    border:0.5px solid black;
+    font-size: 18px;
+    padding:5px 15px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    cursor:pointer;
+}
+.play:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.ri{
+    background-color:rgba(247, 22, 45,0.6);
+    border:0.5px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(247, 22, 45,0.9),inset 0px 0px 10px rgba(247, 22, 45,0.7);
+}
+
+.gi{
+    background-color:rgba(0, 227, 76,0.6);
+    border:0.5px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(0, 227, 76,0.9),inset 0px 0px 10px rgba(0, 227, 76,0.7);
+}
+
+.yi{
+    background-color:rgba(247, 187, 5,0.6);
+    border:0.5px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(247, 187, 5,0.9),inset 0px 0px 10px rgba(247, 187, 5,0.7);
+}
